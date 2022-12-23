@@ -28,6 +28,7 @@ body {
     nav {
             display: flex;
             flex-flow: column nowrap;
+            margin-top: 5%;
         }
     
         nav div {
@@ -35,9 +36,15 @@ body {
             display: flex;
             flex-flow: row nowrap;
             justify-content: flex-end;
+            
         }
     .first-ass {
         width:38%;
+    }
+
+    .nav-buttons{
+        background: inherit;
+        border: none;
     }
 }
 /* .nav-buttons{

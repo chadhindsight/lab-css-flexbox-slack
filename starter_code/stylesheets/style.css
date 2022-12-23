@@ -8,3 +8,40 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+.white-ting{
+    color: aliceblue;
+}
+/* style for description text */
+#free-try{
+color: #ECB12F;
+}
+
+body {
+    background-color: #540B51;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+@media (max-width:  768px){
+    nav {
+            display: flex;
+            flex-flow: column nowrap;
+        }
+    
+        nav div {
+            width: 100%;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: flex-end;
+        }
+    .first-ass {
+        width:38%;
+    }
+}
+/* .nav-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+} */

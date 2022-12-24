@@ -12,6 +12,10 @@ footer links grey: #454245
 .white-ting{
     color: aliceblue;
 }
+/* For the big text in jumbotron */
+h1{
+    text-align: center;
+}
 /* style for description text */
 #free-try{
 color: #ECB12F;
